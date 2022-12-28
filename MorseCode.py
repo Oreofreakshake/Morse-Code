@@ -1,7 +1,3 @@
-from base64 import encode
-from turtle import right
-
-
 class Node:
     def __init__(self, data, left=None, right =None):
         self.data = data
